@@ -1233,6 +1233,7 @@
                 'https://cdnjs.cloudflare.com/ajax/libs/pdf.js/2.3.200/pdf.worker.min.js',
               )
               PDFViewerApplicationOptions.set('defaultUrl', pdfUrl)
+              PDFViewerApplicationOptions.set('disableDownload', true);
             })
             window.webViewerLoad()
           }
